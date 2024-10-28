@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <Navbar />
         <BrowserRouter>
+          <Navbar />
           <Routes>
             <Route path="/" element={<Projects />} />
             <Route path="/project/:projectId" element={<ProjectPage />} />
