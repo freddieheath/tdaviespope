@@ -13,18 +13,18 @@ export default function Projects() {
         darkMode ? "bg-gray-800" : "bg-off-white"
       }`}
     >
-      <div className="container mx-auto py-4 text-center sm:px-4 sm:pb-10">
-        <div className="flex flex-wrap">
+      <div className="container mx-auto text-center sm:px-4 sm:pb-32">
+        <div className="flex sm:gap-y-28 flex-wrap">
           {projects.map((project) => (
             <div
               key={project.image}
               className="w-full px-4 py-2 sm:py-4 lg:w-3/6"
             >
               <Link to={`/project/${project.id}`}>
-                <div className="relative h-96 sm:flex">
+                <div className="relative h-72 sm:flex">
                   <img
                     alt="Project"
-                    className="absolute w-full rounded-lg object-cover object-center sm:h-96 md:inset-0"
+                    className="absolute w-full rounded-lg object-cover object-center h-72 sm:h-96 md:inset-0"
                     src={project.image}
                   />
 
