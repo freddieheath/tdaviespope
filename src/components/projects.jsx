@@ -13,7 +13,7 @@ export default function Projects() {
         darkMode ? "bg-gray-800" : "bg-off-white"
       }`}
     >
-      <div className="container mx-auto text-center sm:px-4 sm:pb-32">
+      <div className="container mx-auto text-center sm:px-4 pb-4 sm:pb-32">
         <div className="flex sm:gap-y-28 flex-wrap">
           {projects.map((project) => (
             <div

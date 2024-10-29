@@ -4,14 +4,14 @@ export const projects = [
     title: "Lost Track of Time",
     description:
       "Teaming up with Bristol collective ‘Lost Track of Time’ to create interactive decor for their largest show at Motion, featuring a 21m² canopy and dynamic cubes for set times and photo ops, inspired by the balance of analogue and digital in Ross from Friends' music.",
-    image: "/assets/motion/edited-canopy.png",
+    image: "/assets/motion/edited-canopy.webp",
     images: [
-      "/assets/motion/blocks-detail.jpg",
-      "/assets/motion/blocks-one.png",
-      "/assets/motion/canopy-detail.png",
-      "/assets/motion/Canopy.jpg",
-      "/assets/motion/edited-canopy.png",
-      "/assets/motion/edited-canopy-two.png",
+      "/assets/motion/blocks-detail.webp",
+      "/assets/motion/blocks-one.webp",
+      "/assets/motion/canopy-detail.webp",
+      "/assets/motion/Canopy.webp",
+      "/assets/motion/edited-canopy.webp",
+      "/assets/motion/edited-canopy-two.webp",
     ],
     tags: "Tags: Event Production, Scenic, Installation",
     textcontent: `
@@ -27,13 +27,13 @@ export const projects = [
     title: "Life's a Beach",
     description:
       "This project, starting as a short video for Glimpse's 'Note to Self' brief, evolved into an installation featuring sandcastles with environmental values, highlighting the fragility of these ideals in professional life and inviting visitors to interact by building and crushing their own sandcastles.",
-    image: "/assets/lifes-a-beach/note-to-self-15.jpg",
+    image: "/assets/lifes-a-beach/note-to-self-15.webp",
     images: [
-      "/assets/lifes-a-beach/IMG_7165.JPG",
-      "/assets/lifes-a-beach/note-to-self-13.jpg",
-      "/assets/lifes-a-beach/note-to-self-15.jpg",
-      "/assets/lifes-a-beach/note-to-self-199.jpg",
-      "/assets/lifes-a-beach/note-to-self-205.jpg",
+      "/assets/lifes-a-beach/IMG_7165.webp",
+      "/assets/lifes-a-beach/note-to-self-13.webp",
+      "/assets/lifes-a-beach/note-to-self-15.webp",
+      "/assets/lifes-a-beach/note-to-self-199.webp",
+      "/assets/lifes-a-beach/note-to-self-205.webp",
     ],
     tags: "Tags: Concept Development, Installation, Environmentalism",
     textcontent: `
@@ -55,14 +55,14 @@ export const projects = [
     title: "Seed of Life",
     description:
       "An interactive installation for Boomtown's Chapter 3, featuring a giant intergalactic seed that promotes altruism and environmental respect, accompanied by a screen-printed 'Daily Rag' article distributed at the UAL Design Show 2024.",
-    image: "/assets/seed-of-life/extracontent/DL003.jpg",
+    image: "/assets/seed-of-life/DL003.webp",
     images: [
-      "/assets/seed-of-life/extracontent/DL003.jpg",
-      "/assets/seed-of-life/extracontent/DL005.jpg",
-      "/assets/seed-of-life/extracontent/DL006.jpg",
-      "/assets/seed-of-life/extracontent/NL003.jpg",
-      "/assets/seed-of-life/extracontent/NP005.jpg",
-      "/assets/seed-of-life/extracontent/daily-rag.png",
+      "/assets/seed-of-life/DL003.webp",
+      "/assets/seed-of-life/DL005.webp",
+      "/assets/seed-of-life/DL006.webp",
+      "/assets/seed-of-life/NL003.webp",
+      "/assets/seed-of-life/NP005.webp",
+      "/assets/seed-of-life/daily-rag.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Renders, World-Building",
@@ -76,12 +76,12 @@ export const projects = [
     title: "Dobber's Bingo",
     description:
       "A speculative project for Boomtown's Chapter 3 theme, featuring a stage on 'Letsbe Avenue' inspired by the lottery-winning feeling, with an entrance bingo roller operated by actors and an interior resembling a giant bingo roller.",
-    image: "/assets/dobber's-bingo/front-view-render.jpg",
+    image: "/assets/dobber's-bingo/front-view-render.webp",
     images: [
-      "/assets/dobber's-bingo/fisheye.jpg",
-      "/assets/dobber's-bingo/roller-handle.jpg",
-      "/assets/dobber's-bingo/front-view-render.jpg",
-      "/assets/dobber's-bingo/interior-behind-speaker.png",
+      "/assets/dobber's-bingo/fisheye.webp",
+      "/assets/dobber's-bingo/roller-handle.webp",
+      "/assets/dobber's-bingo/front-view-render.webp",
+      "/assets/dobber's-bingo/interior-behind-speaker.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Visual Renders",
@@ -98,12 +98,12 @@ export const projects = [
     title: "Crazy Casetta",
     description:
       "A self-initiated Boomtown project inspired by Marrakech, featuring a hidden stage with Middle-Eastern inspired music and walls lined with blank cassettes for visitors to write on, creating a collective mural of personal 'albums' as the festival progresses.",
-    image: "/assets/crazy-cassetta/cc-front-good.png",
+    image: "/assets/crazy-cassetta/cc-front-good.webp",
     images: [
-      "/assets/crazy-cassetta/cc-front-good.png",
-      "/assets/crazy-cassetta/cc-entry.png",
-      "/assets/crazy-cassetta/cc-fish-one.png",
-      "/assets/crazy-cassetta/cc-wall.png",
+      "/assets/crazy-cassetta/cc-front-good.webp",
+      "/assets/crazy-cassetta/cc-entry.webp",
+      "/assets/crazy-cassetta/cc-fish-one.webp",
+      "/assets/crazy-cassetta/cc-wall.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Visual Renders",
@@ -120,7 +120,7 @@ export const projects = [
     title: "Culture Chop",
     description:
       "A collaborative short documentary exploring the hidden, masculine, and clique culture within London’s Smithfield meat market.",
-    image: "/assets/culture-chop/culture-chop-poster-two.png",
+    image: "/assets/culture-chop/culture-chop-poster-two.webp",
     images: [],
     tags: "Tags: Film, Editing, Interviews",
     textcontent: `A collaborative documentary, inside London’s Smithfield market. A short film looking at the hidden culture of London’s meat market, giving insight to the masculine and clique culture of those that work there.`,
@@ -132,8 +132,8 @@ export const projects = [
     title: "Foil Future",
     description:
       "A photography installation I designed, installed, and shot, using tinfoil to evoke a retro-futuristic era, inspired by Andy Warhol and Maison Margiela.",
-    image: "/assets/foils-room/Theo.png",
-    images: ["/assets/foils-room/Theo.png", "/assets/foils-room/Colour.png"],
+    image: "/assets/foils-room/Theo.webp",
+    images: ["/assets/foils-room/Theo.webp", "/assets/foils-room/Colour.webp"],
     tags: "Tags: Photography, Installation, Scenic",
     textcontent: `
     A photography installation designed, installed and shot by myself looking at the use of tinfoil to create associations of a future era from a ‘retro’ standpoint, inspired by Andy Warhol and Maison Margiela.
