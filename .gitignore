@@ -28,3 +28,6 @@ dist-ssr
 *.gif
 *.mp4
 *.json
+
+# Assets
+*.webp

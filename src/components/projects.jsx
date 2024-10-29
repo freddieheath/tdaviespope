@@ -3,9 +3,17 @@ import { Link } from "react-router-dom";
 import { projects } from "../data";
 import { ThemeContext } from "./ThemeContext";
 import { useContext } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects() {
   const { darkMode } = useContext(ThemeContext);
+  useEffect(() => {
+    AOS.init({
+      offset: 40,
+    });
+  }, []);
   return (
     <section
       id="projects"
@@ -14,14 +22,16 @@ export default function Projects() {
       }`}
     >
       <div className="container mx-auto text-center sm:px-4 pb-4 sm:pb-32">
-        <div className="flex sm:gap-y-28 flex-wrap">
+        <div className="flex sm:gap-y-24 flex-wrap">
           {projects.map((project) => (
             <div
+              data-aos="fade-right"
+              data-aos-once="true"
               key={project.image}
               className="w-full px-4 py-2 sm:py-4 lg:w-3/6"
             >
               <Link to={`/project/${project.id}`}>
-                <div className="relative h-72 sm:flex">
+                <div className="relative h-72 sm:flex shadow-lg">
                   <img
                     alt="Project"
                     className="absolute w-full rounded-lg object-cover object-center h-72 sm:h-96 md:inset-0"

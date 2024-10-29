@@ -16,11 +16,15 @@ export default function Navbar() {
           <div className="container mx-auto flex flex-row flex-wrap items-center justify-between px-6 py-5">
             <Link to="/">
               <span
-                className={`title-font text-2xl font-medium transition-all cursor-pointer md:mb-0 ${
+                className={`title-font cursor-pointer text-2xl font-medium md:mb-0 ${
                   darkMode ? `text-white` : `text-gray-800`
                 }`}
               >
-                <h1>Tom Davies-Pope</h1>
+                <h1
+                  className={`transform transition-transform duration-300 ease-in-out hover:scale-105`}
+                >
+                  Tom Davies-Pope
+                </h1>
               </span>
             </Link>
             <Darkmode />

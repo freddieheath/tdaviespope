@@ -120,7 +120,7 @@ export const projects = [
     title: "Culture Chop",
     description:
       "A collaborative short documentary exploring the hidden, masculine, and clique culture within London’s Smithfield meat market.",
-    image: "/assets/culture-chop/culture-chop-poster-two.webp",
+    image: "/assets/culture-chop/culture-chop-poster.webp",
     images: [],
     tags: "Tags: Film, Editing, Interviews",
     textcontent: `A collaborative documentary, inside London’s Smithfield market. A short film looking at the hidden culture of London’s meat market, giving insight to the masculine and clique culture of those that work there.`,

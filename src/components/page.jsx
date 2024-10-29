@@ -4,8 +4,15 @@ import { ThemeContext } from "./ThemeContext";
 import { useParams } from "react-router-dom";
 import { projects } from "../data";
 import { useContext } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ProjectPage = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const { projectId } = useParams();
 
   const project = projects.find((project) => project.id === projectId);
@@ -19,7 +26,7 @@ const ProjectPage = () => {
   return (
     <section>
       <div
-        className={`z-10 flex h-auto w-full flex-col gap-y-8 border-gray-800 px-5 py-20 text-xl xl:px-40 ${
+        className={`z-10 flex h-auto w-full flex-col gap-y-8 border-gray-800 px-14 py-20 text-xl xl:px-40 ${
           darkMode ? `bg-gray-800` : `bg-off-white`
         }`}
       >
@@ -77,7 +84,7 @@ const ProjectPage = () => {
             ))}
         </div>
         {project.video && (
-          <div>
+          <div data-aos="fade-right">
             {project.video && (
               <video controls width="100%">
                 <source src={project.video} type="video/mp4" />
@@ -92,7 +99,9 @@ const ProjectPage = () => {
               <img
                 alt={`Project Image ${index + 1}`}
                 src={image}
-                className="w-full h-auto sm:h-128"
+                data-aos="fade-right"
+                data-aos-once="true"
+                className="w-full h-auto sm:h-2/6 sm:w-auto rounded-sm"
               />
             </div>
           ))}

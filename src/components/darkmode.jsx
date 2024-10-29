@@ -8,7 +8,7 @@ const Darkmode = () => {
   return (
     <div>
       <button
-        className={`cursor-pointer ${
+        className={`transform cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 ${
           darkMode ? `text-white` : `text-gray-800`
         }`}
         onClick={() => {
