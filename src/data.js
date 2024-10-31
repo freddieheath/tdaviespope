@@ -31,9 +31,9 @@ export const projects = [
     images: [
       "/assets/lifes-a-beach/IMG_7165.webp",
       "/assets/lifes-a-beach/note-to-self-13.webp",
-      "/assets/lifes-a-beach/note-to-self-15.webp",
       "/assets/lifes-a-beach/note-to-self-199.webp",
       "/assets/lifes-a-beach/note-to-self-205.webp",
+      "/assets/lifes-a-beach/note-to-self-15.webp",
     ],
     tags: "Tags: Concept Development, Installation, Environmentalism",
     textcontent: `
@@ -59,10 +59,10 @@ export const projects = [
     images: [
       "/assets/seed-of-life/DL003.webp",
       "/assets/seed-of-life/DL005.webp",
+      "/assets/seed-of-life/daily-rag.webp",
       "/assets/seed-of-life/DL006.webp",
       "/assets/seed-of-life/NL003.webp",
       "/assets/seed-of-life/NP005.webp",
-      "/assets/seed-of-life/daily-rag.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Renders, World-Building",
@@ -80,8 +80,8 @@ export const projects = [
     images: [
       "/assets/dobber's-bingo/fisheye.webp",
       "/assets/dobber's-bingo/roller-handle.webp",
-      "/assets/dobber's-bingo/front-view-render.webp",
       "/assets/dobber's-bingo/interior-behind-speaker.webp",
+      "/assets/dobber's-bingo/front-view-render.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Visual Renders",
@@ -100,10 +100,10 @@ export const projects = [
       "A self-initiated Boomtown project inspired by Marrakech, featuring a hidden stage with Middle-Eastern inspired music and walls lined with blank cassettes for visitors to write on, creating a collective mural of personal 'albums' as the festival progresses.",
     image: "/assets/crazy-cassetta/cc-front-good.webp",
     images: [
-      "/assets/crazy-cassetta/cc-front-good.webp",
       "/assets/crazy-cassetta/cc-entry.webp",
       "/assets/crazy-cassetta/cc-fish-one.webp",
       "/assets/crazy-cassetta/cc-wall.webp",
+      "/assets/crazy-cassetta/cc-front-good.webp",
     ],
 
     tags: "Tags: Concept Creation, 3D Visual Renders",

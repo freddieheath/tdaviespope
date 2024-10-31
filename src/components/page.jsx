@@ -10,7 +10,9 @@ import "aos/dist/aos.css";
 
 const ProjectPage = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      offset: 0,
+    });
   }, []);
 
   const { projectId } = useParams();
@@ -39,7 +41,7 @@ const ProjectPage = () => {
             {project.title}
           </h1>
           <h1
-            className={`py-4 text-center text-sm font-medium  ${
+            className={`py-4 text-center text-sm font-medium ${
               darkMode ? `text-white` : `text-slate-700`
             }`}
           >
@@ -62,7 +64,14 @@ const ProjectPage = () => {
             {project.textcontent}
           </p>
         </div>
-        <div className="grid-col-1 grid gap-y-2 lg:px-60 pb-10">
+        <div className="grid-col-1 grid gap-y-2 pb-10 lg:px-60">
+          <h1
+            className={`font-poppins ${
+              darkMode ? `text-white` : `text-slate-800`
+            }`}
+          >
+            Coverage:
+          </h1>
           {project.coverage &&
             project.coverage.map((link, index) => (
               <a
@@ -72,7 +81,7 @@ const ProjectPage = () => {
                 rel="noopener noreferrer"
               >
                 <p
-                  className={`text-sm transition-all  ${
+                  className={`text-sm transition-all ${
                     darkMode
                       ? `text-white hover:text-gray-400`
                       : `text-slate-700 hover:text-slate-900`
@@ -95,13 +104,11 @@ const ProjectPage = () => {
         )}
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-8 align-middle">
           {project.images.map((image, index) => (
-            <div className="sm:h-5/6" key={index}>
+            <div key={index}>
               <img
                 alt={`Project Image ${index + 1}`}
                 src={image}
-                data-aos="fade-right"
-                data-aos-once="true"
-                className="w-full h-auto sm:h-2/6 sm:w-auto rounded-sm"
+                className="w-screen md:h-96 md:w-auto"
               />
             </div>
           ))}

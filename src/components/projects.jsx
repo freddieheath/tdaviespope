@@ -21,8 +21,8 @@ export default function Projects() {
         darkMode ? "bg-gray-800" : "bg-off-white"
       }`}
     >
-      <div className="container mx-auto text-center sm:px-4 pb-4 sm:pb-32">
-        <div className="flex sm:gap-y-24 flex-wrap">
+      <div className="container mx-auto pb-4 text-center sm:px-4 sm:pb-32">
+        <div className="flex flex-wrap sm:gap-y-24">
           {projects.map((project) => (
             <div
               data-aos="fade-right"
@@ -31,11 +31,12 @@ export default function Projects() {
               className="w-full px-4 py-2 sm:py-4 lg:w-3/6"
             >
               <Link to={`/project/${project.id}`}>
-                <div className="relative h-72 sm:flex shadow-lg">
+                <div className="relative h-72 shadow-lg sm:flex">
                   <img
                     alt="Project"
-                    className="absolute w-full rounded-lg object-cover object-center h-72 sm:h-96 md:inset-0"
+                    className="absolute h-72 w-full rounded-lg object-cover object-center sm:h-96 md:inset-0"
                     src={project.image}
+                    loading="lazy"
                   />
 
                   <div
