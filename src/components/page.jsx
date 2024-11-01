@@ -74,13 +74,17 @@ const ProjectPage = () => {
             </p>
           </div>
           <div className="grid-col-1 grid gap-y-2 pb-10 lg:px-60">
-            <h1
-              className={`font-poppins ${
-                darkMode ? `text-white` : `text-slate-800`
-              }`}
-            >
-              Coverage:
-            </h1>
+            {project.coverage && project.coverage.length > 0 && (
+              <div>
+                <h1
+                  className={`font-poppins ${
+                    darkMode ? `text-white` : `text-slate-800`
+                  }`}
+                >
+                  Coverage:
+                </h1>
+              </div>
+            )}
             {project.coverage &&
               project.coverage.map((link, index) => (
                 <a
@@ -118,6 +122,7 @@ const ProjectPage = () => {
                   alt={`Project Image ${index + 1}`}
                   src={image}
                   className="w-screen md:h-96 md:w-auto"
+                  loading="lazy"
                 />
               </div>
             ))}
